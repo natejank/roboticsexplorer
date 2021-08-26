@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.example.apstudent.roboticsexplorer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <queries android:name="android.permission.QUERY_ALL_PACKAGES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_roboticsexplorer"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_roboticsexplorer"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.roboticsexplorer">
+        <activity
+            android:name="net.example.apstudent.roboticsexplorer.TeamViewer" />
+<!--            android:parentActivityName=".EventViewer" -->
+        <activity
+            android:name="net.example.apstudent.roboticsexplorer.EventViewer" />
+<!--            android:parentActivityName=".MainActivity" -->
+        <!-- TODO fix snackbar back button -->
+        <activity android:name="net.example.apstudent.roboticsexplorer.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

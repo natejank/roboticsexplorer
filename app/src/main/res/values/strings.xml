@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Robotics Explorer</string>
+    <string name="tba_url">https://www.thebluealliance.com/api/v3</string>
+    <string name="tba_consumer_url">https://www.thebluealliance.com</string>
+    <string name="label_event">Event</string>
+    <string name="label_year">Year</string>
+    <string name="label_submit">Submit</string>
+    <string name="label_district">District</string>
+    <string name="label_wins">Wins</string>
+    <string name="label_losses">Losses</string>
+    <string name="label_ties">Ties</string>
+    <string name="label_qual_wins">Wins</string>
+    <string name="label_qual_losses">Losses</string>
+    <string name="label_qual_ties">Ties</string>
+    <string name="label_nodata_number">0</string>
+    <string name="label_teamnumber">0000</string>
+    <string name="label_team_number">Team Number</string>
+    <string name="label_teamname">A Robotics Team</string>
+    <string name="label_noerror">No error</string>
+    <string name="label_dq">Disqualifications</string>
+    <string name="label_status">Getting status</string>
+    <string name="label_rank">Rank</string>
+    <string name="label_view_on_tba">View on TBA</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="json_request_failed_team">No data on this event.</string>
+    <string name="json_request_failed">No data found on request.</string>
+    <string name="json_request_succeed">Successfully fetched resource!</string>
+    <string name="json_getting_events">"Getting events for "</string>
+    <string name="browser_not_found">Could not launch browser!  URL Copied to clipboard.</string>
+    <string name="label_no_district">No District</string>
+    <string name="no_connection_disclaimer">Robotics Explorer needs a network connection to work.  Please connect to the internet.</string>
+    <string name="no_rankings">No rankings</string>
+    <string name="no_data">No data</string>
+    <string name="json_getting_rankings">Getting rankings for event</string>
+    <string name="json_getting_teaminfo">Getting team information</string>
+    <string name="got_rankings">Rankings fetched successfully</string>
+    <string name="json_malformed">Could not parse response!</string>
+    <string name="title_activity_team_viewer">TeamViewer</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="useragent_name">Robotics Explorer</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

@@ -1,5 +1,13 @@
 # Robotics Explorer
 
+Robotics Explorer is an Android app to display various pieces of data from FIRST Robotics Competition 
+events using [The Blue Alliance's](https://www.thebluealliance.com/) Read API.  It is primarily written in Java.  
+
+It is in no way complete or a replacement for the official TBA mobile app, as this was entirely created 
+for my AP Computer Science Principles performance task.  
+
+*Anything below this is a relic from my actual submission*
+
 ## Notes/disclaimers
 
 Robotics Explorer is [Powered by The Blue Alliance](https://www.thebluealliance.com/), and builds upon TBA APIs to fetch the data displayed in the app.  

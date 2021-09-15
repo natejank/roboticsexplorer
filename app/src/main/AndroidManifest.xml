@@ -20,7 +20,8 @@
             android:name="net.example.apstudent.roboticsexplorer.EventViewer" />
 <!--            android:parentActivityName=".MainActivity" -->
         <!-- TODO fix snackbar back button -->
-        <activity android:name="net.example.apstudent.roboticsexplorer.MainActivity">
+        <activity android:name="net.example.apstudent.roboticsexplorer.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

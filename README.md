@@ -6,6 +6,26 @@ events using [The Blue Alliance's](https://www.thebluealliance.com/) Read API.  
 It is in no way complete or a replacement for the official TBA mobile app, as this was entirely created 
 for my AP Computer Science Principles performance task.  
 
+## Building
+
+While I don't provide an apk because that would require me to look after API keys, building it yourself is easy enough.
+
+1. Get an api key
+    - To do this, go to <https://www.thebluealliance.com/account> and log in with google.
+    - After signing in, scroll down to Read API Keys
+    - Input "roboticsexplorer" into the description box, and click "Add New Key"
+    - Copy the generated key
+1. Create secrets.xml
+    - Clone this repository and navigate to `src/main/res/values`
+    - Create a new file, `secrets.xml`
+    - Format as follows:
+```xml
+<resources>
+    <string name="tba_key">YOUR_API_KEY</string>
+</resources>
+```
+1. [Build and run](https://developer.android.com/studio/run)
+
 *Anything below this is a relic from my actual submission*
 
 ## Notes/disclaimers
